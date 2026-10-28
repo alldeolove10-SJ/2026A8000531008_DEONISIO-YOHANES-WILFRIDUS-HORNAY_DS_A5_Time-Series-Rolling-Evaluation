@@ -1,0 +1,2 @@
+dataset,data_type,rows,date_start,date_end,sha256,seed
+synthetic_daily_demand_demo.csv,synthetic demonstration; not real-world evidence,720,2024-01-01,2025-12-20,dcfbc7cc577864da600cecd328795a1291d95fdf541c657ec2efcbfcb92e8250,2026

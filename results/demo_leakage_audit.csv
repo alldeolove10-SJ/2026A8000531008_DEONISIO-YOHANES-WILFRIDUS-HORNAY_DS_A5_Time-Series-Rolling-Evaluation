@@ -1,0 +1,7 @@
+Check,Status,Evidence / limitation
+Training targets precede test targets,PASS,Asserted for every rolling origin
+Features stop at t-1,PASS,Lag and rolling features exclude the target day
+Preprocessing refit inside each fold,PASS,Imputer and scaler are inside the fold-specific pipeline
+At least five rolling origins,PASS,6 origins declared
+Real-world feature publication delays,NOT VERIFIED,Synthetic demo has no real publication pipeline
+Real operational target availability,NOT VERIFIED,Must be documented for the assessed dataset

@@ -1,0 +1,6 @@
+Area,Monitoring rule to specify,Fallback / response
+Data freshness,Check feature timestamps and ingestion delay,Block prediction if required inputs are stale
+Forecast error,Track MAE/RMSE once labels arrive; require minimum sample size,Investigate sustained deterioration against baseline
+Drift signal,Use a predeclared feature/target distribution statistic,"Treat as a trigger to investigate, not proof of causal drift"
+Retraining,Retrain only after a defined evidence threshold and validation,Compare candidate against the frozen baseline before release
+Fallback,Keep a simple baseline and define an operational owner,Revert to baseline or manual process if data/model checks fail

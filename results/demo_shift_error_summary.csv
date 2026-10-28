@@ -1,0 +1,3 @@
+period,n,mean_abs_error,median_abs_error
+After shift,120,7.639684572340609,6.369433874510371
+Before shift,60,4.497632144029878,4.466647415492808
